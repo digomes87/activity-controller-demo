@@ -13,6 +13,8 @@
 		E56A04D91AAEFA480071CD82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56A04D81AAEFA480071CD82 /* Images.xcassets */; };
 		E56A04DC1AAEFA480071CD82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56A04DA1AAEFA480071CD82 /* LaunchScreen.xib */; };
 		E56A04E81AAEFA480071CD82 /* activity_controller_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56A04E71AAEFA480071CD82 /* activity_controller_demoTests.swift */; };
+		F59D87091B9ABA3D0080172B /* activity controller demo in Resources */ = {isa = PBXBuildFile; fileRef = F59D87041B9ABA3D0080172B /* activity controller demo */; };
+		F59D870A1B9ABA3D0080172B /* activity controller demoTests in Resources */ = {isa = PBXBuildFile; fileRef = F59D87081B9ABA3D0080172B /* activity controller demoTests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		E56A04E11AAEFA480071CD82 /* activity controller demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "activity controller demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56A04E61AAEFA480071CD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E56A04E71AAEFA480071CD82 /* activity_controller_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity_controller_demoTests.swift; sourceTree = "<group>"; };
+		F59D87041B9ABA3D0080172B /* activity controller demo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "activity controller demo"; sourceTree = "<group>"; };
+		F59D87051B9ABA3D0080172B /* activity controller demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "activity controller demo.xcodeproj"; sourceTree = "<group>"; };
+		F59D87081B9ABA3D0080172B /* activity controller demoTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "activity controller demoTests"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,9 @@
 		E56A04C31AAEFA470071CD82 = {
 			isa = PBXGroup;
 			children = (
+				F59D87041B9ABA3D0080172B /* activity controller demo */,
+				F59D87051B9ABA3D0080172B /* activity controller demo.xcodeproj */,
+				F59D87081B9ABA3D0080172B /* activity controller demoTests */,
 				E56A04CE1AAEFA480071CD82 /* activity controller demo */,
 				E56A04E41AAEFA480071CD82 /* activity controller demoTests */,
 				E56A04CD1AAEFA480071CD82 /* Products */,
@@ -110,6 +118,11 @@
 				E56A04E61AAEFA480071CD82 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59D87061B9ABA3D0080172B /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +192,12 @@
 			mainGroup = E56A04C31AAEFA470071CD82;
 			productRefGroup = E56A04CD1AAEFA480071CD82 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F59D87061B9ABA3D0080172B /* Products */;
+					ProjectRef = F59D87051B9ABA3D0080172B /* activity controller demo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E56A04CB1AAEFA480071CD82 /* activity controller demo */,
@@ -194,6 +213,8 @@
 			files = (
 				E56A04D71AAEFA480071CD82 /* Main.storyboard in Resources */,
 				E56A04DC1AAEFA480071CD82 /* LaunchScreen.xib in Resources */,
+				F59D87091B9ABA3D0080172B /* activity controller demo in Resources */,
+				F59D870A1B9ABA3D0080172B /* activity controller demoTests in Resources */,
 				E56A04D91AAEFA480071CD82 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +428,7 @@
 				E56A04ED1AAEFA480071CD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E56A04EE1AAEFA480071CD82 /* Build configuration list for PBXNativeTarget "activity controller demoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +437,7 @@
 				E56A04F01AAEFA480071CD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
