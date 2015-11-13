@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DDEEC92-1E49-4ADE-83D3-D358E5D8681B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>activity controller demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8E3C104CE01073DB1AB2E7B9AC4A44509E342980</key>
+		<string>https://github.com/digomes87/activity-controller-demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>activity controller demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8E3C104CE01073DB1AB2E7B9AC4A44509E342980</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/digomes87/activity-controller-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8E3C104CE01073DB1AB2E7B9AC4A44509E342980</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8E3C104CE01073DB1AB2E7B9AC4A44509E342980</string>
+			<key>IDESourceControlWCCName</key>
+			<string>activity%20controller%20demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
